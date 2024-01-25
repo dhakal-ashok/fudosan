@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fudosan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Alfa+Slab+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Container -->
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="brand navbar-brand">
+                
+                <span>FUDOSAN</span>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="What Room are you looking for?">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="hamburger-menu">
+                <div class="menu-icon">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+                <div class="navigation">
+                    <a href="#">HOME</a>
+                    <a href="#">ABOUT</a>
+                    <a href="#">PRICES</a>
+                    <a href="#">LOCATION</a>
+                    <a href="#">CUSTOMERS</a>
+                    <a href="#">CONTACT</a>
+                </div>
+            </div>
+        </nav>
+        <!-- End of Navbar -->
+
+                <!-- Landing -->
+                <section class="landing">
+                    <div class="landing-img">
+                        <img src="images/landing-bg.jpg">
+                    </div>
+                    <div class="banner">
+                        <h1 class="banner-heading"><span>KYOTO</span> ROOMS</h1>
+                        <div class="banner-content">
+                            <p>We are foreign friendly room searching agent in kyoto </p>
+                            <button>READ MORE</button>
+                        </div>
+                    </div>
+                </section>
+                <!-- End of Landing -->
+
+                        <!-- About -->
+        <section class="about">
+            <div class="about-left">
+                <h1>"Kyoto's Global Room Search Experts"</h1>
+                <p>We specialize in assisting international clients in finding suitable accommodations in Kyoto. As a foreign-friendly room searching agent, we cater to the unique needs and preferences of our global clientele, ensuring a smooth and personalized experience. Trust us to help you discover the perfect place to call home in the beautiful city of Kyoto.</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="about-right">
+                
+                <div class="about-img-wrapper">
+                <img src="images/about.jpg" >
+            </div>
+        </div>
+       
+        </section>
+        <!-- End of About -->
+
+        
+        <!-- Projects -->
+        <section class="projects">
+            <h1 class="projects-heading">TYPES OF ROOMS</h1>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/card1.jpg">
+                    <div class="card-content">
+                        <h1>FOR SINGLE PERSON</h1>
+                        <p>| 1R | Area (m²) 15-20 | Rent (円)  35,000 |<br>
+| 1K | Area (m²) 20-25 | Rent (円)  40,000 |<br>
+| 1DK  Area (m²) | 25-30 | Rent (円)  45,000 |<br>
+| 1LDK | Area (m²) 30-40 | Rent (円)  50,000 |<br>
+</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/card2.jpg">
+                    <div class="card-content">
+                        <h1>FOR TWO PERSONS</h1>
+                        <p>| 2K | Area (m²) 40-50 | Rent (円)  55,000 |<br>
+| 2DK  | Area (m²) 50-60 | Rent (円) 60,000 |<br>
+| 2LDK  | Area (m²) 60-70 | Rent (円) 65,000 |<br>
+</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/card3.jpg">
+                    <div class="card-content">
+                        <h1>FOR MORE THAN THREE PERSONS</h1>
+                        <p>| 3K  | Area (m²) 70-80 | Rent (円)  70,000 - 80,000 |<br>
+| 3DK  | Area (m²) 80-90 | Rent (円)  75,000 - 90,000 |<br>
+| 3LDK  | Area (m²) 90-100 | Rent (円)  85,000 - 100,000 |<br>
+| 3LDK+  | Area (m²) 100+ | Rent (円)  95,000 - 120,000 |<br>
+</p>
+                    </div>
+                </div>
+               
+            </div>
+           
+        </section>
+        <!-- End of Projects -->
+
+              
+                        <!-- Contact -->
+        
+
+
+<section class="contact">
+    <div class="contact-content">
+        <div class="contact-left">
+            <h1>Book now</h1>
+        </div>
+        <div class="contact-right">
+            <input type="text" placeholder="Your Name"><br>
+            <input type="email" placeholder="Your Email Address"><br><br>
+            <select width="100%" name="roomType" id="roomType" required>
+                <option value="" disabled selected>Select Room Type</option>
+                <option value="1R">1R</option>
+                <option value="1K">1K</option>
+                <option value="1DK">1DK</option>
+                <option value="1LDK">1LDK</option>
+                <option value="2K">2K</option>
+                <option value="2DK">2DK</option>
+                <option value="2LDK">2LDK</option>
+                <option value="3R">3R</option>
+                <option value="3K">3K</option>
+                <option value="3DK">3DK</option>
+            </select><br><br>
+            <button type="submit" onclick="showAlert()">
+                 Book Now
+            </button>
+        </div>
+    </div>
+</section>
+        <!-- End of Contact -->
+        <center>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d417835.64227443415!2d135.7188694!3d35.09819619999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a8d6cd3cc3f1%3A0xc0961d366bbb1d3d!2sKyoto!5e0!3m2!1sen!2sjp!4v1706014105480!5m2!1sen!2sjp" width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+
+                <!-- Footer --> 
+                <footer class="footer">
+                    <div class="footer-content">
+                        <div class="brand brand-footer">
+                            
+                            <span>FUDOSAN</span>
+                        </div>
+                        <div class="copyright">
+                            <p>&copy; All Rights Reserved. Fudosan</p>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End of Footer -->
+    <!-- End of Container -->
+
+    <script src="script.js"></script>
+</body>
+</html>
